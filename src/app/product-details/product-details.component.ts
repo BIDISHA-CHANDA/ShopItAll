@@ -103,7 +103,7 @@ this.product.removeItemFromCart(productId)
     this.removeCart=false
   }
   buyNow(){
-    this.route.navigate(['cart-paage']);
+    this.route.navigate(['/cart-paage']);
   }
   
 }
